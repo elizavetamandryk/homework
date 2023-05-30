@@ -1,0 +1,19 @@
+package homeworks_completed;
+
+public class Homework3 {
+    public static void main(String[] args) {
+        char s = '0';
+
+        // 1.
+        int j = s;
+        System.out.println(j);
+
+        // 2.
+        int f = Integer.parseInt(String.valueOf(s));
+        System.out.println(f);
+
+        // 3.
+        int k = Character.getNumericValue(s);
+        System.out.println(k);
+    }
+}
