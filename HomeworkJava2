@@ -1,0 +1,19 @@
+package homeworks_completed;
+
+import java.util.Scanner;
+
+public class Homework2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double g = 4.5;
+        double d = 2.7;
+
+        System.out.println(g);
+        System.out.println(d);
+        System.out.println((int)(g * d));
+
+
+        sc.close();
+    }
+}
