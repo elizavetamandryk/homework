@@ -1,0 +1,24 @@
+package homeworks_completed;
+
+import org.w3c.dom.ls.LSOutput;
+
+public class Box {
+
+    public int widht;
+    public int height;
+    public int lenght;
+
+    public Box(int widht, int height, int lenght) {
+        this.widht = widht;
+        this.height = height;
+        this.lenght = lenght;
+        System.out.println("V= w * h * l: " + widht * height * lenght);
+    }
+
+    public static void main(String[] args) {
+        Box box1 = new Box(6, 12, 8);
+
+
+    }
+
+}
