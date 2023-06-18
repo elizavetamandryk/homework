@@ -1,7 +1,5 @@
 package homeworks_completed;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class HomeworkJava0806 {
     public static void main(String[] args) {
 
