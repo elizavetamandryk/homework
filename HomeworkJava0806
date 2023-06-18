@@ -1,0 +1,17 @@
+package homeworks_completed;
+
+import org.w3c.dom.ls.LSOutput;
+
+public class HomeworkJava0806 {
+    public static void main(String[] args) {
+
+
+    int r1 = 12;
+    int r2 = 14;
+    int k = 40;
+
+    double f = ((Math.pow(r2,2)* Math.PI*k)-(Math.pow(r1,2)*Math.PI*k));
+
+        System.out.println("Лишние каллории: "+f+"каллории");
+    }
+}
