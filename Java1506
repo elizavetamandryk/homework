@@ -1,0 +1,54 @@
+package homeworks_completed;
+
+import java.util.Scanner;
+
+public class HomeworkJava1506 {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter button: ");
+        int button = sc.nextInt();
+        sc.close();
+
+        // switch case
+        switch (button) {
+            case 1 -> makeEspresso();
+            case 2 -> makeAmericano();
+            case 3 -> makeCappuccino();
+            case 4 -> makeTea();
+            default -> System.out.println("Wrong button");}
+
+        // if else
+        if (button == 1)
+            makeEspresso();
+        else if (button == 2)
+            makeAmericano();
+        else if (button == 3)
+            makeCappuccino();
+        else if (button == 4)
+            makeTea();
+        else System.out.println("Wrong button");
+    }
+    public static void makeEspresso() {
+        System.out.println("Making espresso ");
+    }
+    public static void addWater(){
+        System.out.println("+ adding boiled water");
+    }
+    public static void makeAmericano(){
+        System.out.println("Making americano...");
+        makeEspresso(); addWater();
+    }
+    public static void addMilk(){
+        System.out.println("+ adding foamed milk");
+    }
+    public static void makeCappuccino(){
+        System.out.println("Making Cappuccino...");
+        makeEspresso(); addMilk();
+    }
+    public static void makeTea(){
+        System.out.println("Making tea...");
+        System.out.println("Tea bag");
+        addWater();
+    }
+}
