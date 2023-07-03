@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://png.pngtree.com/background/20221109/original/pngtree-cute-dinosaurs-seamless-pattern-picture-image_1952821.jpg);
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #2C3A47;
+    margin-top: 50px;
+}
+.maininfo{
+    border: solid #58B19F;
+    border-radius: 20px;
+    background-color: #58B19F;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+span{
+    font-size: x-large;
+    color: #CAD3C8;
+}
+span:hover{
+    color: #B33771;
+}
+.img {
+    width: 200px;
+   margin: 15px;
+}
