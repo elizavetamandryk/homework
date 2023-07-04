@@ -27,6 +27,8 @@ p{
 span{
     font-size: x-large;
     color: #CAD3C8;
+    transition: all 0.3s;
+    cursor: pointer;
 }
 span:hover{
     color: #B33771;
